@@ -34,7 +34,7 @@
     @if $content == bottom {
         content: '';
         display: inline-block;
-        vertical-align: top;
+        vertical-align: bottom;
     }
     
     // valida a direcao do ponteiro, podendo ser top, bottom, right, left
