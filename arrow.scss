@@ -13,28 +13,13 @@
     @if $content == true or $content == content {
         content: '';
     }
-    @if $content == pos or $content == position or $content == absolute {
+    @if $content == position or $content == absolute {
         content: '';
         position: absolute;
     }
     @if $content == display or $content == inline-block {
         content: '';
         display: inline-block;
-    }
-    @if $content == middle {
-        content: '';
-        display: inline-block;
-        vertical-align: middle;
-    }
-    @if $content == top {
-        content: '';
-        display: inline-block;
-        vertical-align: top;
-    }
-    @if $content == bottom {
-        content: '';
-        display: inline-block;
-        vertical-align: bottom;
     }
     
     // valida a direcao do ponteiro, podendo ser top, bottom, right, left
